@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  .xqq{
+     width: 1456px;
+      height: 870px;
+      margin:0 auto; 
+  }
+.container-fluid{
+    width: 1456px;
+    height: 140px;
+    padding-top: 20px;
+    background-color: #ccc;
+}
+.warp{
+    width: 1454px;
+    height: 400px;
+    background: white;
+    border: 1px solid #ccc;
+    margin-bottom: 40px;
+    .warp-header{
+        width: 1454px;
+        height: 50px;
+        border: 1px solid #ccc;
+        line-height: 50px;
+    }
+    .warp-left{
+     float: left;
+     font-size: 20px;
+     padding-left:20px;
+    }
+    .warp-right{
+        float: right;
+        padding-right: 20px;
+       }
+}
+
+.warp-foot{
+    width: 1456px;
+    height: 350px;
+    background: white;
+    display: flex;
+    margin-top: 40px;
+    .w-foot-left{
+        width: 840px;
+        height: 400px;
+    }
+    .warp-foot-le{
+        width: 840px;
+        height: 50px;
+        border: 1px solid #ccc;
+        line-height: 50px; 
+        .warp-left{
+            float: left;
+            font-size: 20px;
+            padding-left:20px;
+           }
+           .warp-right{
+               float: right;
+               padding-right: 20px;
+              }
+    }
+    .w-foot-right{
+        width:615px;
+        height:400px;
+        #main{
+            width: 600px;
+            height:400px;
+        }
+        }
+}
+.warp-buttom{
+    width: 1454px;
+    height: 400px;
+    background: white;
+    border: 1px solid #ccc;
+    margin-top: 40px;
+    .warp-buttom-header{
+        width: 1454px;
+        height: 50px;
+        border: 1px solid #ccc;
+        line-height: 50px;
+        .warp-buttom-left{
+            float: left;
+            font-size: 20px;
+            padding-left:20px;
+        }
+        .warp-buttom-right{
+            float: right;
+            padding-right: 20px;
+        }
+    }
+  
+}
+
+

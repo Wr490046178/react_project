@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+.xia{
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: wheat;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+.f{
+  position: fixed;
+  width: 80px;
+  height: 60px;
+  top: 0px;
+  right:  0px;
+}
+
+.active{
+  color: white!important;
+}
+#root{
+  width: 100%;
+  height: 100%;
+}
+.zon{
+  width: 100%;
+  height: 100%;
+  .top{
+    width: 100%;
+    height: 47px;
+    background-color:rgb(60, 146, 142);
+    line-height: 47px;
+    display: flex;
+    a{
+      // flex: 1;
+      padding-left: 45px;
+      color: white;
+    }
+    a:hover{
+     color: red;
+    }
+ 
+    .imglogo{
+      width: 160px;
+      height: 48px;
+      padding-left:20px;  
+      }
+  }
+  
+}
+.cen{
+  width: 100%;
+  height:100%;
+  // background-color: #ccc; 
+}
+.ant-input-group-wrapper{
+  margin-left: 563px;
+  line-height: 47px;
+}
